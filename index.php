@@ -23,6 +23,7 @@ if(!$_SESSION['_sfm_allowed']) {
 	}
 	echo '<html><body><form action=? method=post>PASSWORD:<input type=password name=p /></form></body></html>'; 
 	exit;
+}
 
 // must be in UTF-8 or `basename` doesn't work
 setlocale(LC_ALL,'en_US.UTF-8');
