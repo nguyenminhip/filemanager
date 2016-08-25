@@ -25,7 +25,6 @@ if(!$_SESSION['_sfm_allowed']) {
 	exit;
 }
 */
-
 // must be in UTF-8 or `basename` doesn't work
 setlocale(LC_ALL,'en_US.UTF-8');
 
